@@ -14,6 +14,10 @@ app.get("/", (req, res) => {
   res.send("Running Backend Server");
 });
 
+app.get("/status", (req, res) => {
+  res.json({ status: "Server is live" });
+});
+
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });

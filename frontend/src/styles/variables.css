@@ -1,0 +1,21 @@
+:root {
+    /* Background */
+    --bg-main: #f7f8fc;
+    --bg-card: #ffffff;
+
+    /* Text */
+    --text-primary: #1f2937;
+    --text-secondary: #6b7280;
+
+    /* Accent */
+    --accent: #4f46e5;
+
+    /* Borders */
+    --border-soft: #e5e7eb;
+
+    /*Radius*/
+    --redius-md: 12px;
+
+    /* Transitions */
+    --transition: all 0.25s ease
+}
